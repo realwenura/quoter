@@ -2,8 +2,6 @@ const quoteContainer = document.getElementById('quote-container');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
 const newQuoteButton = document.getElementById('new-quote-button');
-const body = document.querySelector('body');
-body.style.backgroundImage = `url('philosophy.jpg')`;
 
 
 function getQuote() {
