@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Popular Quotes</title>
+  <title>Philosophical Quotes</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
-  <style>
-    #new-quote-button {
-      font-family: 'Open Sans', sans-serif;
-    }
-  </style>
 </head>
 <body>
-  <div id="quote-container">
-    <p id="quote"></p>
-    <p id="author"></p>
+  <header>
+    <h1>Philosophical Quotes</h1>
+  </header>
+  <div id="content">
+    <div id="quote-container">
+      <p id="quote"></p>
+      <p id="author"></p>
+    </div>
+    <button id="new-quote-button" onclick="getQuote()">New Quote</button>
   </div>
-  <button id="new-quote-button" onclick="getQuote()">New Quote</button>
+  <footer>
+    <p class="fine-tuned">Fine Tuned By Wenura</p>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
